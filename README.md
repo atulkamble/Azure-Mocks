@@ -34,7 +34,7 @@ Azure supports three primary cloud deployment models:
 **Answer:**  
 Azure Virtual Network (VNet) allows organizations to create isolated networks in Azure. It enables communication between Azure resources and extends on-premises networks using VPNs or ExpressRoute.
 
-### 5. What is Azure Active Directory (Azure AD)?  
+### 5. What is Microsoft Intra ID?  
 **Answer:**  
 Azure Active Directory (Azure AD) is a cloud-based identity and access management service that helps employees sign in and access resources securely. It supports Single Sign-On (SSO), Multi-Factor Authentication (MFA), and integration with third-party applications.
 
