@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure MCQ Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 600px; margin: auto; }
+        .question { margin-bottom: 10px; }
+        .result { font-weight: bold; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Azure MCQ Test</h2>
+        <form id="quizForm">
+            <div class="question">
+                <p>1. What type of cloud service model does Azure Virtual Machines fall under?</p>
+                <input type="radio" name="q1" value="A"> SaaS <br>
+                <input type="radio" name="q1" value="B"> PaaS <br>
+                <input type="radio" name="q1" value="C"> IaaS <br>
+                <input type="radio" name="q1" value="D"> FaaS <br>
+            </div>
+            <div class="question">
+                <p>2. Which storage option is best for unstructured data like images?</p>
+                <input type="radio" name="q2" value="A"> Queue Storage <br>
+                <input type="radio" name="q2" value="B"> Table Storage <br>
+                <input type="radio" name="q2" value="C"> Blob Storage <br>
+                <input type="radio" name="q2" value="D"> File Storage <br>
+            </div>
+            <button type="button" onclick="calculateScore()">Submit</button>
+        </form>
+        <p class="result" id="result"></p>
+    </div>
+
+    <script>
+        function calculateScore() {
+            let score = 0;
+            let answers = { q1: "C", q2: "C" };
+            
+            for (let key in answers) {
+                let selected = document.querySelector(`input[name="${key}"]:checked`);
+                if (selected && selected.value === answers[key]) {
+                    score++;
+                }
+            }
+            
+            document.getElementById("result").innerText = `Your score: ${score} / 2`;
+        }
+    </script>
+</body>
+</html>
+
