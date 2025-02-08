@@ -55,7 +55,7 @@ Here are some **Azure scenario-based interview questions and answers** to help y
 - **Azure VPN Gateway** – If low-to-moderate bandwidth is needed, set up a **Site-to-Site VPN** for secure connectivity.  
 - **Azure ExpressRoute** – If high-speed, dedicated, and private connectivity is required.  
 - **Azure Virtual WAN** – If multiple branch offices need to connect securely to Azure.  
-- **Hybrid Identity** – Use **Azure AD Connect** to sync identities for seamless authentication.  
+- **Hybrid Identity** – Use **Azure Entra ID Connect** to sync identities for seamless authentication.  
 
 ---
 
