@@ -15,20 +15,86 @@
     <div class="container">
         <h2>Azure MCQ Test</h2>
         <form id="quizForm">
-            <div class="question">
-                <p>1. What type of cloud service model does Azure Virtual Machines fall under?</p>
-                <input type="radio" name="q1" value="A"> SaaS <br>
-                <input type="radio" name="q1" value="B"> PaaS <br>
-                <input type="radio" name="q1" value="C"> IaaS <br>
-                <input type="radio" name="q1" value="D"> FaaS <br>
-            </div>
-            <div class="question">
-                <p>2. Which storage option is best for unstructured data like images?</p>
-                <input type="radio" name="q2" value="A"> Queue Storage <br>
-                <input type="radio" name="q2" value="B"> Table Storage <br>
-                <input type="radio" name="q2" value="C"> Blob Storage <br>
-                <input type="radio" name="q2" value="D"> File Storage <br>
-            </div>
+<div class="question">
+    <p>1. What type of cloud service model does Azure Virtual Machines fall under?</p>
+    <input type="radio" name="q1" value="A"> SaaS <br>
+    <input type="radio" name="q1" value="B"> PaaS <br>
+    <input type="radio" name="q1" value="C"> IaaS <br>
+    <input type="radio" name="q1" value="D"> FaaS <br>
+</div>
+
+<div class="question">
+    <p>2. Which storage option is best for unstructured data like images?</p>
+    <input type="radio" name="q2" value="A"> Queue Storage <br>
+    <input type="radio" name="q2" value="B"> Table Storage <br>
+    <input type="radio" name="q2" value="C"> Blob Storage <br>
+    <input type="radio" name="q2" value="D"> File Storage <br>
+</div>
+
+<div class="question">
+    <p>3. What Azure service allows you to create private and public DNS records?</p>
+    <input type="radio" name="q3" value="A"> Azure Virtual Network <br>
+    <input type="radio" name="q3" value="B"> Azure DNS <br>
+    <input type="radio" name="q3" value="C"> Azure Active Directory <br>
+    <input type="radio" name="q3" value="D"> Azure Load Balancer <br>
+</div>
+
+<div class="question">
+    <p>4. What service in Azure provides a scalable, fully managed relational database?</p>
+    <input type="radio" name="q4" value="A"> Azure SQL Database <br>
+    <input type="radio" name="q4" value="B"> Azure Cosmos DB <br>
+    <input type="radio" name="q4" value="C"> Azure Blob Storage <br>
+    <input type="radio" name="q4" value="D"> Azure Functions <br>
+</div>
+
+<div class="question">
+    <p>5. Which service is used for monitoring and collecting logs in Azure?</p>
+    <input type="radio" name="q5" value="A"> Azure Defender <br>
+    <input type="radio" name="q5" value="B"> Azure Monitor <br>
+    <input type="radio" name="q5" value="C"> Azure Front Door <br>
+    <input type="radio" name="q5" value="D"> Azure Virtual Network <br>
+</div>
+
+<div class="question">
+    <p>6. What feature in Azure AD provides multi-factor authentication (MFA) and conditional access?</p>
+    <input type="radio" name="q6" value="A"> Azure AD B2B <br>
+    <input type="radio" name="q6" value="B"> Azure AD Identity Protection <br>
+    <input type="radio" name="q6" value="C"> Azure AD Connect <br>
+    <input type="radio" name="q6" value="D"> Azure Kubernetes Service <br>
+</div>
+
+<div class="question">
+    <p>7. Which Azure storage service supports file shares using the SMB protocol?</p>
+    <input type="radio" name="q7" value="A"> Azure Table Storage <br>
+    <input type="radio" name="q7" value="B"> Azure Queue Storage <br>
+    <input type="radio" name="q7" value="C"> Azure File Storage <br>
+    <input type="radio" name="q7" value="D"> Azure Blob Storage <br>
+</div>
+
+<div class="question">
+    <p>8. What service allows you to connect an on-premises network to Azure securely?</p>
+    <input type="radio" name="q8" value="A"> Azure Virtual Network <br>
+    <input type="radio" name="q8" value="B"> Azure VPN Gateway <br>
+    <input type="radio" name="q8" value="C"> Azure Load Balancer <br>
+    <input type="radio" name="q8" value="D"> Azure Content Delivery Network <br>
+</div>
+
+<div class="question">
+    <p>9. Which of the following is NOT a cloud deployment model?</p>
+    <input type="radio" name="q9" value="A"> Public Cloud <br>
+    <input type="radio" name="q9" value="B"> Private Cloud <br>
+    <input type="radio" name="q9" value="C"> Hybrid Cloud <br>
+    <input type="radio" name="q9" value="D"> Distributed Cloud <br>
+</div>
+
+<div class="question">
+    <p>10. What Azure service is best for running containerized applications without managing servers?</p>
+    <input type="radio" name="q10" value="A"> Azure Kubernetes Service (AKS) <br>
+    <input type="radio" name="q10" value="B"> Azure Virtual Machines <br>
+    <input type="radio" name="q10" value="C"> Azure App Service <br>
+    <input type="radio" name="q10" value="D"> Azure Functions <br>
+</div>
+
             <button type="button" onclick="calculateScore()">Submit</button>
         </form>
         <p class="result" id="result"></p>
